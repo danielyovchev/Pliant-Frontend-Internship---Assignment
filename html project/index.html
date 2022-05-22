@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GhostHost</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <script src="https://kit.fontawesome.com/db8b86ca2d.js" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="flex-container">
+                <img src="assets/images/logo.png" alt="logo">
+                <ul id="nav" class="nav-tabs">
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li><a href="#domain">Domain</a></li>
+                    <li><a href="#hosting">Hosting</a></li>
+                    <li><a href="#clients">Clients</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#support">Support</a></li>
+                </ul>
+                <a href="javascript:void(0);"  onclick="dropMenu()" class="icon">
+                        <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+            <hr>
+            <div id="home">
+                <h1>Home</h1>
+                <h3>We love our work...</h3>
+                <h3>And We're taking it seriously...</h3>
+            </div>
+        </div>
+    </header>
+    <section id="account">
+            <div class="login">
+                <a href="#">Login</a>
+            </div>
+            <div class="register">
+                <a href="#">Register</a>
+            </div>
+    </section>
+    <section id="about">
+            <div class="about-left">
+                <label><b>About</b> Us</label>
+                <p>lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the first to create typesetting documentation for the printing and typesetting industry in the United States. 
+                Lorem Ipsum has been the first to create typesetting documentation for the printing and typesetting industry in the United States for years. lorem Ipsum has been the first to create typesetting documentation for the printing</p>
+            </div>
+            <div class="about-right">
+                <div class="portfolio">
+                    <img src="assets/images/team-1.png" alt="error">
+                    <h5>Jonny Doe</h5>
+                    <label>Designer</label>
+                    <br>
+                    <span class="social"><i class="fa-brands fa-facebook-f"></i></span>
+                    <span class="social"><i class="fa-brands fa-twitter"></i></span>
+                    <span class="social"><i class="fa-solid fa-link"></i></span>
+                </div>
+                <div class="portfolio">
+                    <img src="assets/images/team-2.png" alt="error">
+                    <h5>Jonny Doe</h5>
+                    <label>Designer</label>
+                    <br>
+                    <span class="social"><i class="fa-brands fa-facebook-f"></i></span>
+                    <span class="social"><i class="fa-brands fa-twitter"></i></span>
+                    <span class="social"><i class="fa-solid fa-link"></i></span>
+                </div>
+                <div class="portfolio">
+                    <img src="assets/images/team-3.png" alt="error">
+                    <h5>Jonny Doe</h5>
+                    <label>Designer</label>
+                    <br>
+                    <span class="social"><i class="fa-brands fa-facebook-f"></i></span>
+                    <span class="social"><i class="fa-brands fa-twitter"></i></span>
+                    <span class="social"><i class="fa-solid fa-link"></i></span>
+                </div>
+            </div>
+    </section>
+    <section id="carrousel">
+        <div class="slider">
+            <div class="slide" style="display: block;">
+                <img src="assets/images/homebackground.jpg" style="width: 100%">
+                <p>"lorem ipsum dolor sit amet, consectetur adip proident, sed do eiusmod tempor incididunt ut labore"</p>
+                <label>John Doe</label>
+            </div>
+            <div class="slide">
+                <img src="assets/images/image2.jpg" style="width: 100%">
+                <p>"lorem ipsum dolor sit amet, 111etur adip proident, sed do eiusmod tempor incididunt ut labore"</p>
+                <label>John Doe</label>
+            </div>
+            <div class="slide">
+                <img src="assets/images/image3.webp" style="width: 100%">
+                <p>"lorem ipsum dolor sit amet22222, consectetur adip proident, sed do eiusmod tempor incididunt ut labore"</p>
+                <label>John Doe</label>
+            </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div class="flex-container">
+            <div class="service">
+                <span class="logo1"><i class="fa-solid fa-cloud"></i></span>
+                <h6>Fast Servers</h6>
+                <p>Lorem ipsum dolor sit amet, consectet ut labore et dolore</p>
+            </div>
+            <div class="service">
+                <span class="logo2"><i class="fa-solid fa-bolt-lightning"></i></span>
+                <h6>Cloud Servers</h6>
+                <p>Lorem ipsum dolor sit amet, consectet ut labore et dolore</p>
+            </div>
+            <div class="service">
+                <span class="logo3"><i class="fa-solid fa-bolt-lightning"></i></span>
+                <h6>Domain Transfer</h6>
+                <p>Lorem ipsum dolor sit amet, consectet ut labore et dolore</p>
+            </div>
+            <div class="service">
+                <span class="logo4"><i class="fa-solid fa-comments"></i></span>
+                <h6>Live support</h6>
+                <p>Lorem ipsum dolor sit amet, consectet ut labore et dolore</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="flex-container">
+            <div class="footer-left">
+                <p>lorem ipsum dolor sit amet, con ut labore et netus et malesuada causes lore</p>
+                <label>Design by</label>
+            </div>
+            <div class="footer-menu">
+                <ul class="fmenu">
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Account</a></li>
+                    <li><a href="#">Product Catalog</a></li>
+                    <li><a href="#">Shortcodes</a></li>
+                </ul>
+                <ul class="fmenu">
+                    <li><a href="#">Site Map</a></li>
+                    <li><a href="#">Whois search</a></li>
+                    <li><a href="#">Web Mail</a></li>
+                    <li><a href="#">Find Domain</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <span class="contacts"><i class="fa-solid fa-phone"></i><a href="#"> 0000-0000-0000</a></span>                
+                <span class="contacts"><i class="fa-solid fa-envelope"></i><a href="#"> loremipsum@mail.com</a></span>
+                <p>Lorem ipsum Street, Lorem avenue</p>
+                <p>Lorem ipsum</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
